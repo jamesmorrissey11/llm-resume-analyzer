@@ -5,7 +5,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain-experimental>=0.3.4",
+]
 
 
 [project.urls]
@@ -23,6 +25,7 @@ dev = [
     "mkdocs>=1.4.2",
     "mkdocs-material>=8.5.10",
     "mkdocstrings[python]>=0.26.1",
+    "colorlog>=6.9.0",
 ]
 
 [build-system]
